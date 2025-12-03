@@ -14,6 +14,34 @@
 body {
     background-color: honeydew;
     font-family: var(--font-outfit);
+    color: var(--color-carbon);
+}
+
+/* nav styles */
+.logotype{
+    font-family: var(--font-puff);
+    font-size: 3rem !important;
+}
+.logotype:hover{
+    text-decoration: none !important;
+}
+
+.custom-nav {
+    background-color: var(--color-punch-red);
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+.custom-nav .nav-link {
+    color: var(--color-honeydew) !important;
+}
+.custom-nav .nav-link:hover {
+    color: var(--color-honeydew) !important;
+    text-decoration: underline;
+    font-weight: 700;
+    scale: 1;
 }
 
 #jellyMatchHero {

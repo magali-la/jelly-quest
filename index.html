@@ -28,33 +28,39 @@
     <script src="./src/scripts/script.js" type="module" defer></script>
   </head>
   <body>
-    <header>
-      <nav class="navbar py-3">
+     <nav class="navbar py-3 position-sticky z-3 top-0">
         <div class="container d-flex justify-content-center">
-          <ul class="nav nav-pills custom-nav rounded-pill border px-4 py-2">
+          <ul class="nav nav-pills custom-nav rounded-pill border px-4 py-2 shadow-sm">
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Discover</a>
+              <a class="nav-link text-dark fs-3" href="#hero">Discover</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-black fw-bd" href="#">Jelly Quest</a>
+              <a class="nav-link fw-bold logotype fs-1" href="#">Jelly Quest</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="/jellymatch.html"
-                >Jelly Match</a
-              >
+              <a class="nav-link text-dark fs-3" href="./jellymatch.html">Jelly Match</a>
             </li>
           </ul>
         </div>
       </nav>
-      <section aria-label="hero section"></section>
+      
+    <header>
+        <section id="hero" aria-label="hero section" class="d-flex flex-col lg:flex-row justify-content-center align-items-center gap-5 border-3 bg-punch border-bottom mx-5 my-5 position-relative">
+                <!-- asset -->
+                <div>
+                    <img src="./src/assets/mascot.png" alt="cute jellybean with a face surrounded by other jelly beans" style="width: 40rem;">
+                </div>
+                
+                <div class="d-flex flex-column gap-5 align-items-center">
+                    <h1>Think You Know Jelly Belly?</h1>
+                    <h2>Explore over 100 unique bean flavors and combinations. Learn what makes each one special, then test your knowledge in JellyMatch to prove you're a true connoisseur!</h2>
+                </div>
+        </section>
     </header>
     <main>
       <!-- Section for search functionality -->
 
-      <section
-        aria-label="section with all jellybeans data"
-        class="d-flex flex-column gap-2"
-      >
+      <section aria-label="section with all jellybeans data" class="d-flex flex-column gap-2 py-6">
         <h2 class="align-self-center">Discover Jelly Belly Flavors!</h2>
         <!--  -->
         <section id="controls" class="d-flex justify-content-center my-3">
