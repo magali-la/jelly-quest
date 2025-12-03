@@ -1,0 +1,27 @@
+:root {
+    /* typography */
+    --font-puff: 'DynaPuff';
+    --font-outfit: 'Outfit';
+
+    /* colors */
+    --color-punch-red: #E63946;
+    --color-honeydew: #F1FAEE;
+    --color-sunflower: #EDB230;
+    --color-carbon: #191919;
+    --color-ocean: #2E86AB;
+}
+
+body {
+    background-color: honeydew;
+    font-family: var(--font-outfit);
+}
+
+#jellyMatchHero {
+    background-color: var(--color-punch-red);
+    padding: 4rem 10rem;
+}
+
+h1 {
+    font-family: var(--font-puff);
+    font-weight: 900;
+}
