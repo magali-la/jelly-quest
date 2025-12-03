@@ -25,12 +25,26 @@
     <script src="./src/scripts/script.js" type="module" defer></script>
 </head>
 <body>
+    <nav class="navbar py-3 position-sticky z-3 top-0">
+        <div class="container d-flex justify-content-center">
+          <ul class="nav nav-pills custom-nav rounded-pill border px-4 py-2 shadow-sm">
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-3" href="./index.html">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold logotype fs-1" href="./index.html">Jelly Quest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bolder fs-3" href="#">Jelly Match</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <header>
-        <!-- nav bar -->
 
         <!-- hero section -->
         <section aria-label="Jelly Match hero section" id="jellyMatchHero" class="d-flex flex-column justify-content-center align-items-center gap-5 border-3 bg-punch border-bottom border-warning">
-            <h1>Ready to Test Your Knowledge of Jelly Belly Combinations?</h1>
+            <h1 class="gameHeader">Ready to Test Your Knowledge of Jelly Belly Combinations?</h1>
             <!-- game instructions -->
             <section aria-label="Jelly Match instructions section" class="">
                 <h3>You'll be shown 3 Jelly Belly bean combinations. Can you guess the combo name? Select your answer and find out if you're a true Jelly Belly Connoisseur for a surprise treat!</h3>
@@ -41,8 +55,31 @@
     <main>
 
     </main>
-    <footer class="text-center">
-      <p><strong>© Jelly Quest Inc</strong></p>
+      <footer class="bg-danger py-5 d-flex flex-row justify-content-around">
+      <!-- LEFT SIDE -->
+      <div class="d-flex align-items-center">
+        <p class="fw-bold m-0 fs-1 footer-title" style="line-height: 1.1">
+          JELLY <br />
+          QUEST
+        </p>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div
+        class="col-md-6 d-flex justify-content-center justify-content-md-end"
+      >
+        <div class="p-3 border rounded" style="width: 220px">
+          <p class="fw-semibold mb-2">Discover</p>
+
+          <a href="#" class="d-block text-decoration-none text-dark mb-3">
+            JellyMatch
+          </a>
+
+          <p class="text-muted m-0" style="font-size: 14px">
+            © Jelly Quest Inc
+          </p>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
