@@ -60,3 +60,9 @@ h1 {
     object-fit: cover;
     object-position: center;
 }
+
+/* footer */
+.footer-title {
+    font-family: var(--font-puff);
+    color: var(--color-honeydew);
+}
