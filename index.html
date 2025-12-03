@@ -42,9 +42,36 @@
         </section>
     </header>
     <main>
-      <section aria-label="section with all jellybeans data">
-        <div class="templateCard"></div>
-      </section>
+        <section aria-label="section with all jellybeans data" class="d-flex flex-column gap-2">
+            <h2 class="align-self-center">Discover Jelly Belly Flavors!</h2>
+            <!--  -->
+            <div id="jellyCardGrid" class="row p-3 mx-1 mx-md-2 mx-lg-3 gx-2 gx-md-4 gy-md-5">
+                <!-- clone templateJellyCol to fit in the bootstrap grid -->
+                <div class="templateJellyCol col-6 col-md-4 col-lg-3 d-none">
+                    <div class="templateJellyCard card w-100">
+                        <!-- jelly bean imgURL -->
+                        <img src="https://cdn-tp1.mozu.com/9046-m1/cms/files/168244d0-b3ba-4725-a2d9-5083b362d10a" alt="" class="card-img-top imgUrl">
+
+                        <!-- jelly card content -->
+                        <div class="card-body">
+                            <!-- jelly bean flavorName -->
+                            <h5 class="card-title fs-3 flavorName">Jelly Bean Name Name Name</h5>
+
+                            <!-- jelly bean groupName list template containerto add more than one groupName-->
+                            <ul class="list-group list-group-flush groupNameTemplate">
+                                <!-- groupName template -->
+                                <li class="list-group-item p-0 fs-4 groupNameTemplate groupName">Original Flavors Group</li>
+                            </ul>
+
+                            <!-- jelly bean description -->
+                            <p class="card-text fs-5 fw-light description">I'm a description of this thing.</p>
+                            <!-- jelly bean colorGroup -->
+                            <p class="card-text small fw-medium text-secondary colorGroup">Color Group</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="text-center">
       <p><strong>© Jelly Quest Inc</strong></p>
