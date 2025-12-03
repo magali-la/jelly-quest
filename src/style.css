@@ -53,3 +53,10 @@ h1 {
     font-family: var(--font-puff);
     font-weight: 900;
 }
+
+/* jelly cards section */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
