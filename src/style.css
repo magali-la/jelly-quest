@@ -66,3 +66,8 @@ h1 {
     font-family: var(--font-puff);
     color: var(--color-honeydew);
 }
+
+/* game */
+.gameHeader{
+    color: var(--color-honeydew);
+}
