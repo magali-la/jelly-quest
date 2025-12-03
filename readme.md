@@ -118,8 +118,8 @@ Handles:
 
 ## Contributors
 
-Magali Lapu
-Thierno Bah (Bah)
-Uchenna Williams (Dan)
+- Magali Lapu
+- Thierno Bah (Bah)
+- Uchenna Williams (Dan)
 
 ---
