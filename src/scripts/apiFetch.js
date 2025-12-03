@@ -1,5 +1,6 @@
 export async function getAllJellyBeans() {
-  const url = "https://jellybellywikiapi.onrender.com/api/beans";
+  const url =
+    "https://jellybellywikiapi.onrender.com/api/Beans?pageIndex=1&pageSize=114";
 
   try {
     console.log("Attempting to retrieve data");
