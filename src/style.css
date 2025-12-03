@@ -14,6 +14,22 @@
 body {
     background-color: honeydew;
     font-family: var(--font-outfit);
+    color: var(--color-carbon);
+}
+
+/* nav styles */
+.logotype{
+    font-family: var(--font-puff);
+    color: var(--color-honeydew);
+}
+
+.custom-nav {
+    background-color: var(--color-punch-red);
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
 }
 
 #jellyMatchHero {
