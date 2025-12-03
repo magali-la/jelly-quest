@@ -20,6 +20,8 @@ export function formulateData(data) {
   const grid = document.getElementById("jellyCardGrid");
   const template = document.querySelector(".templateJellyCol");
 
+  grid.innerHTML = "";
+  // clears so that when searching it re renders display
   data.forEach((bean) => {
     // Clone template column
     const card = template.cloneNode(true);
