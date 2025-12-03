@@ -20,7 +20,10 @@ body {
 /* nav styles */
 .logotype{
     font-family: var(--font-puff);
-    color: var(--color-honeydew);
+    font-size: 3rem !important;
+}
+.logotype:hover{
+    text-decoration: none !important;
 }
 
 .custom-nav {
@@ -30,6 +33,15 @@ body {
 .nav-item {
     display: flex;
     align-items: center;
+}
+.custom-nav .nav-link {
+    color: var(--color-honeydew) !important;
+}
+.custom-nav .nav-link:hover {
+    color: var(--color-honeydew) !important;
+    text-decoration: underline;
+    font-weight: 700;
+    scale: 1;
 }
 
 #jellyMatchHero {
