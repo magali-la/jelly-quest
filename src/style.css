@@ -71,3 +71,7 @@ h1 {
 .gameHeader{
     color: var(--color-honeydew);
 }
+
+.startGameBtn {
+    background-color: var(--color-sunflower);
+}
